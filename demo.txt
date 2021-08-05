@@ -1,0 +1,22 @@
+line 108:
+address: 0x55a7c8bdd000, size: 4, free: 0
+
+[inserted 3 bytes into freed memory]
+
+line 116:
+address: 0x55a7c8bdd000, size: 4, free: 0
+
+line 124:
+address: 0x55a7c8bdd000, size: 4, free: 1
+address: 0x55a7c8bff000, size: 5, free: 0
+
+[inserted 5 bytes into freed memory]
+
+line 132:
+address: 0x55a7c8bdd000, size: 4, free: 1
+address: 0x55a7c8bff000, size: 5, free: 0
+
+line 135:
+address: 0x55a7c8bdd000, size: 4, free: 1
+address: 0x55a7c8bff000, size: 5, free: 1
+

@@ -101,31 +101,30 @@ int main(){
     char *p, *q, *r, *s;
     
     p = my_malloc(4*sizeof(*p));
-    print_blocks(__LINE__);
     if (NULL == p)
     {
         return 1;
     }
+    print_blocks(__LINE__);
     p = my_free(p);
 
     q = my_malloc(3*sizeof(*q));
-    print_blocks(__LINE__);
     if (NULL == q)
     {
       return 1;
     }
+    print_blocks(__LINE__);
     q = my_free(q);
 
     r = my_malloc(5*sizeof(*r));
-    print_blocks(__LINE__);
     if (NULL == r)
     {
       return 1;
     }
+    print_blocks(__LINE__);
     r = my_free(r);
 
     s = my_malloc(5*sizeof(*s));
-    print_blocks(__LINE__);
     if (NULL == s)
     {
       return 1;
