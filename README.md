@@ -1,5 +1,5 @@
 # malloc
-A simple malloc/free memory management demo in C
+A simple malloc/free memory management demo in C using sbrk() and a singly linked-list.
 
 The demo included in main() produces:
 
